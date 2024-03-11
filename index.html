@@ -17,7 +17,8 @@
     <button>
     <img src="assets/images/icon-menu.svg" alt="icon">
     </button>
-    <nav>
+    
+    <nav class="mobile">
         <button>
             <img src="assets/images/icon-menu-close.svg" alt="close">
         </button>
@@ -27,10 +28,15 @@
         <a href="#">Trending</a>
         <a href="#">Categorias</a>
     </nav>
+    <nav class="desktop">
+
+    </nav>
 </header>
+
 <main>
     <section class="primeira-secao">
         <picture>
+            <source media="(min-width:700px )" srcset="./images/image-web-3-desktop.jpg">
             <img src="assets/images/image-web-3-mobile.jpg" alt="">
         </picture>
         <h1>O futuro brilhante da Web 3.0?</h1>
