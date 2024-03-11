@@ -8,14 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"defer></script>
 </head>
-<body>
+<body class="menu-open">
     <header>
 <img src="assets/images/logo.svg" alt="logo">    
 
     <button>
     <img src="assets/images/icon-menu.svg" alt="icon">
     </button>
+    <nav>
+        <button>
+            <img src="assets/images/icon-menu-close.svg" alt="close">
+        </button>
+        <a href="#">Home</a>
+        <a href="#">Novo</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categorias</a>
+    </nav>
 </header>
 <main>
     <section class="primeira-secao">
@@ -26,11 +37,11 @@
     </section>
     <section class="segunda-secao">
         <h2>Novo</h2>
-        <div class="bb mb pb">
+        <div class="mb">
     <h3>Hidrogênio VS Carros Elétricos</h3>
     <p>Os carros movidos a hidrogênio alguma vez alcançarão os veículos elétricos?</p>
         </div>
-        <div>
+        <div class="mb">
     <h3>A arte gerada por IA</h3>
     <p>Quais são os possíveis efeitos adversos da geração de imagens por IA sob demanda?</p>
         </div>
@@ -39,7 +50,7 @@
         <p>O financiamento privado por empresas de capital de risco caiu 50%.</p>
         </div>
     </section>
-    <section>
+    <section class="terceira-secao">
         <div>
             <img src="assets/images/image-retro-pcs.jpg" alt="img pc">
             <div>
